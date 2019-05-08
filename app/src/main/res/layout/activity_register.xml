@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#6F4D35"
+    android:text="@string/account"
+    android:textAlignment="center"
+    android:textSize="36dp"
+    android:layout_marginTop="30dp"
+    android:fontFamily="@font/roboto_thin"
+    />
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="15dp"
+        android:autofillHints=""
+        android:background="@drawable/rectangle2"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:gravity="top"
+        android:ems="10"
+        android:hint="@string/first_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rectangle2"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:gravity="top"
+        android:ems="10"
+        android:hint="@string/last_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rectangle2"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/txtPass2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rectangle2"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:gravity="top"
+        android:ems="10"
+        android:hint="@string/repass"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/txtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rectangle2"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:gravity="top"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rectangle2"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:gravity="top"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rectangle2"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:gravity="top"
+        android:ems="10"
+        android:hint="@string/id_num"
+        android:inputType="number" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/rectangle"
+        android:layout_marginBottom="38dp"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:text="@string/signup" />
+
+</LinearLayout>
